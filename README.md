@@ -7,6 +7,7 @@ Microservices with Java
 Lets discuss what is a Microservice first? and what is this new fuss about Microservices.
 
 Monothilic application vs Microservice
+
 In a monolithic architecture, an application is delivered as a single deployable artifact. All the(user interface), business,and database access logic are packaged together into a as single application artifact(JAR/WAR) and deployed to an application server.
 
 when multiple development teams working on the application,each team have their application(part) they are working on, some might be working on UI team, some might be working on dataware house team,few can be working on integration, This makes the monotlithic applications force multiple development teams to sync their delivery because their code needs to be build/test/deployed as a entire unit.
